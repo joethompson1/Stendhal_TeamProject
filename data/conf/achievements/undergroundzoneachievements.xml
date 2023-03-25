@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+	
+	
+	<achievement identifier="zone.underground.semos">
+	<title>Canary</title>
+	<description>Visit all underground zones in the Semos region</description>
+	<score value="3"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="PlayerVisitedZonesInRegionCondition"></classname>
+	  <param value="semos"></param>
+	  <param value="true"></param>
+	  <param value="false"></param>
+	</conditions>
+   </achievement>
+   
+	<achievement identifier="zone.underground.nalwor">
+	<title>Fear not drows nor hell</title>
+	<description>Visit all underground zones in the Nalwor region</description>
+	<score value="3"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="PlayerVisitedZonesInRegionCondition"></classname>
+	  <param value="nalwor"></param>
+	  <param value="true"></param>
+	  <param value="false"></param>
+	</conditions>
+   </achievement>
+
+	<achievement identifier="zone.underground.athor">
+	<title>Canary</title>
+	<description>Visit all underground zones in the athor region</description>
+	<score value="3"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="PlayerVisitedZonesInRegionCondition"></classname>
+	  <param value="athor"></param>
+	  <param value="true"></param>
+	  <param value="false"></param>
+	</conditions>
+   </achievement>
+   
+	<achievement identifier="zone.underground.amazon">
+	<title>Canary</title>
+	<description>Visit all underground zones in the amazon region</description>
+	<score value="3"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="PlayerVisitedZonesInRegionCondition"></classname>
+	  <param value="amazon"></param>
+	  <param value="true"></param>
+	  <param value="false"></param>
+	</conditions>
+   </achievement>
+   
+	<achievement identifier="zone.underground.ados">
+	<title>Canary</title>
+	<description>Visit all underground zones in the ados region</description>
+	<score value="3"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="PlayerVisitedZonesInRegionCondition"></classname>
+	  <param value="ados"></param>
+	  <param value="true"></param>
+	  <param value="false"></param>
+	</conditions>
+   </achievement>
+	
+	
+	
+</achievements>

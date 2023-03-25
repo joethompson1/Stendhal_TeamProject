@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+	
+	<achievement identifier="quest.special.daily.0010">
+	<title>Semos' Protector</title>
+	<description>Finish daily item quest 10 times</description>
+	<score value="1"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="QuestStateGreaterThanCondition"></classname>
+	  <param value="daily_item"></param>
+	  <param value="2"></param>
+	  <param value="9"></param>
+	</conditions>
+   </achievement>
+
+	<achievement identifier="quest.special.daily.0050">
+	<title>Semos' Protector</title>
+	<description>Finish daily item quest 50 times</description>
+	<score value="1"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="QuestStateGreaterThanCondition"></classname>
+	  <param value="daily_item"></param>
+	  <param value="2"></param>
+	  <param value="49"></param>
+	</conditions>
+   </achievement>
+
+	<achievement identifier="quest.special.daily.0100">
+	<title>Semos' Protector</title>
+	<description>Finish daily item quest 100 times</description>
+	<score value="3"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="QuestStateGreaterThanCondition"></classname>
+	  <param value="daily_item"></param>
+	  <param value="2"></param>
+	  <param value="99"></param>
+	</conditions>
+   </achievement>
+
+	<achievement identifier="quest.special.daily.0250">
+	<title>Semos' Protector</title>
+	<description>Finish daily item quest 250 times</description>
+	<score value="3"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="QuestStateGreaterThanCondition"></classname>
+	  <param value="daily_item"></param>
+	  <param value="2"></param>
+	  <param value="249"></param>
+	</conditions>
+   </achievement>
+   
+	<achievement identifier="quest.special.daily.0500">
+	<title>Semos' Protector</title>
+	<description>Finish daily item quest 500 times</description>
+	<score value="5"></score>
+	<active value="true"></active>
+	<conditions>
+	  <classname value="QuestStateGreaterThanCondition"></classname>
+	  <param value="daily_item"></param>
+	  <param value="2"></param>
+	  <param value="499"></param>
+	</conditions>
+   </achievement>
+	
+	
+</achievements>

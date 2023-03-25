@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+
+  <achievement identifier="zone.outside.semos">
+    <title>Junior Explorer</title>
+    <description>Visit all outside zones in the Semos region</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerVisitedZonesInRegionCondition"</classname>
+    		<param value="semos"?></value>
+    		<param value="true"?></value>
+    		<param value="true"?></value>
+    </conditions>
+  </achievement>
+
+  <achievement identifier="zone.outside.ados">
+    <title>Big City Explorer</title>
+    <description>Visit all outside zones in the Ados region</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerVisitedZonesInRegionCondition"</classname>
+    		<param value="ados"?></value>
+    		<param value="true"?></value>
+    		<param value="true"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="zone.outside.fado">
+    <title>Far South</title>
+    <description>Visit all outside zones in the Fado region</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerVisitedZonesInRegionCondition"</classname>
+    		<param value="fado"?></value>
+    		<param value="true"?></value>
+    		<param value="true"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="zone.outside.orril">
+    <title>Scout</title>
+    <description>Visit all outside zones in the Orril region</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerVisitedZonesInRegionCondition"</classname>
+    		<param value="orril"?></value>
+    		<param value="true"?></value>
+    		<param value="true"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="zone.outside.amazon">
+    <title>Jungle Explorer</title>
+    <description>Visit all outside zones in the Amazon region</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerVisitedZonesInRegionCondition"</classname>
+    		<param value="amazon"?></value>
+    		<param value="true"?></value>
+    		<param value="true"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="zone.outside.athor">
+    <title>Tourist</title>
+    <description>Visit all outside zones in the Athor region</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerVisitedZonesInRegionCondition"</classname>
+    		<param value="athor"?></value>
+    		<param value="true"?></value>
+    		<param value="true"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="zone.outside.kikareukin">
+    <title>Sky Tower</title>
+    <description>Visit all outside zones in the Kikareukin region</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerVisitedZonesInRegionCondition"</classname>
+    		<param value="kikareukin"?></value>
+    		<param value="true"?></value>
+    		<param value="true"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="zone.special.bank">
+    <title>Safe Deposit</title>
+    <description>Visit all banks</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerVisitedZonesInRegionCondition"</classname>
+    		<param value="int_semos_bank"?></value>
+    		<param value="int_nalwor_bank"?></value>
+    		<param value="int_kirdneh_bank"?></value>
+    		<param value="int_fado_bank"?></value>
+    		<param value="int_magic_bank"?></value>
+    		<param value="int_ados_bank"?></value>
+    </conditions>
+  </achievement>
+
+  
+</achievements>

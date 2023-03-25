@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+
+  <achievement identifier="xp.level.010">
+    <title>Greenhorn</title>
+    <description>Reach level 10</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="LevelGreaterThanCondition"></classname>
+    		<param value="9"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="xp.level.050">
+    <title>Novice</title>
+    <description>Reach level 50</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="LevelGreaterThanCondition"></classname>
+    		<param value="49"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="xp.level.100">
+    <title>Apprentice</title>
+    <description>Reach level 100</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="LevelGreaterThanCondition"></classname>
+    		<param value="99"?></value>
+    </conditions>
+  </achievement>
+
+  <achievement identifier="xp.level.200">
+    <title>Adventurer</title>
+    <description>Reach level 200</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="LevelGreaterThanCondition"></classname>
+    		<param value="199"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="xp.level.300">
+    <title>Experienced Adventurer</title>
+    <description>Reach level 300</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="LevelGreaterThanCondition"></classname>
+    		<param value="299"?></value>
+    </conditions>
+  </achievement>
+
+  <achievement identifier="xp.level.400">
+    <title>Master Adventurer</title>
+    <description>Reach level 400</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="LevelGreaterThanCondition"></classname>
+    		<param value="399"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="xp.level.500">
+    <title>Stendhal Master</title>
+    <description>Reach level 500</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="LevelGreaterThanCondition"?></classname>
+    		<param value="499"?></value>
+    </conditions>
+  </achievement>
+
+  <achievement identifier="xp.level.597">
+    <title>Stenhal High Master</title>
+    <description>Reach level 597</description>
+    <score value="5"></score>
+    <active value = "true"></active>
+    <conditions>
+    	<classname value ="LevelGreaterThanCondition"></classname>
+    		<param value="596"?></value>
+    </conditions>
+  </achievement>
+  
+</achievements>

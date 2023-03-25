@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+
+  <achievement identifier="obtain.wish">
+    <title>A wish came true</title>
+    <description>Get an item from the wishing well</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerGotNumberOfItemsFromWellCondition"</classname>
+    		<param value="0"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="obtain.harvest.vegetable">
+    <title>Farmer</title>
+    <description>Harvest 3 of all vegetables that grow in Faiumoni</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerGotNumberOfItemsFromWellCondition"</classname>
+    		<param value="3"?></value>
+    		<param value="carrot"?></value>
+    		<param value="salad"?></value>
+    		<param value="broccoli"?></value>
+    		<param value="cauliflower"?></value>
+    		<param value="leek"?></value>
+    		<param value="onion"?></value>
+    		<param value="courgette"?></value>
+    		<param value="spinach"?></value>
+    		<param value="collard"?></value>
+    		<param value="garlic"?></value>
+    		<param value="artichoke"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="obtain.fish">
+    <title>Fisherman</title>
+    <description>Catch 15 of each type of fish</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerGotNumberOfItemsFromWellCondition"</classname>
+    		<param value="15"?></value>
+    		<param value="char"?></value>
+    		<param value="clownfish"?></value>
+    		<param value="cod"?></value>
+    		<param value="mackerel"?></value>
+    		<param value="perch"?></value>
+    		<param value="red lionfish"?></value>
+    		<param value="roach"?></value>
+    		<param value="surgeonfish"?></value>
+    		<param value="trout"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="quest.special.collector">
+    <title>Ultimate Collector</title>
+    <description>Finish ultimate collector quest</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="PlayerGotNumberOfItemsFromWellCondition"</classname>
+    		<param value="ultimate_collector"?></value>
+    </conditions>
+  </achievement>
+ 
+  
+</achievements>

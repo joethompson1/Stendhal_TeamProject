@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="stendhal ../items.xsd ">
+
+   <item name="sleeping bag">
+    <type class="sleepingbag" subclass="sleeping bag" tileid="-1"/>
+    <description>You see a sleeping bag. You can use it to have a nice nap.</description>
+    <implementation class-name="games.stendhal.server.entity.item.SleepingBag"/>
+    <attributes>
+      <amount value="6"/>
+      <frequency value="1"/>
+      <regen value="1"/>
+      <menu value="Use|Use"/>
+    </attributes>
+    <weight value="1.0"/>
+    <value value="1"/>
+    <equipable>
+      <slot name="ground"/>
+      <slot name="content"/>
+      <slot name="lhand"/>
+      <slot name="rhand"/>
+      <slot name="bag"/>
+      <slot name="trade"/>
+    </equipable>
+  </item>
+
+</items>

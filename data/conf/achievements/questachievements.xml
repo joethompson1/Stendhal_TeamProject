@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+
+  <achievement identifier="quest.special.elf_princess.0025">
+    <title>Faiumoni's Casanova</title>
+    <description>Finish elf princess quest 25 times</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestStateGreaterThanCondition"</classname>
+    		<param value="elf_princess"?></value>
+    		<param value="2"?></value>
+    		<param value="24"?></value>
+    </conditions>
+  </achievement>
+
+  <achievement identifier="quest.special.kill_monks.0025">
+    <title>Heretic</title>
+    <description>Finish Kill Monks quest 25 times</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestStateGreaterThanCondition"</classname>
+    		<param value="kill_monks"?></value>
+    		<param value="2"?></value>
+    		<param value="24"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="quest.special.maze">
+    <title>Pathfinder</title>
+    <description>Finish the maze</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestStateGreaterThanCondition"</classname>
+    		<param value="maze"?></value>
+    		<param value="2"?></value>
+    		<param value="0"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="quest.deathmatch">
+    <title>Deathmatch Hero</title>
+    <description>Earn 100,000 points in deathmatch</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestStateGreaterThanCondition"</classname>
+    		<param value="deathmatch_score"?></value>
+    		<param value="0"?></value>
+    		<param value="100000"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="quest.special.semos">
+    <title>Aide to Semos folk</title>
+    <description>Complete all quests in Semos City</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestsInRegionCompletedCondition"</classname>
+    		<param value="Semos City"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="quest.special.ados">
+    <title>Helper of Ados city dwellers</title>
+    <description>Complete all quests in Ados City</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestsInRegionCompletedCondition"</classname>
+    		<param value="Ados City"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="quest.count.80">
+    <title>Quest Junkie</title>
+    <description>Complete at least 80 quests</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestsInRegionCompletedCondition"</classname>
+    		<param value="80"?></value>
+    </conditions>
+  </achievement>
+  
+</achievements>

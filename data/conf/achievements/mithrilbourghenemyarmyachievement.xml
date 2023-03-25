@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+
+  <achievement identifier="quest.special.kill_enemy_army.0005">
+    <title>Sergeant</title>
+    <description>Finish Kill Enemy Army quest 5 times</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestStateGreaterThanCondition"</classname>
+    		<param value="kill_enemy_army"?></value>
+    		<param value="3"?></value>
+    		<param value="4"?></value>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="quest.special.kill_enemy_army.0025">
+    <title>Major</title>
+    <description>Finish Kill Enemy Army quest 25 times</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestStateGreaterThanCondition"</classname>
+    		<param value="kill_enemy_army"?></value>
+    		<param value="3"?></value>
+    		<param value="24"?></value>
+    </conditions>
+  </achievement>
+
+  <achievement identifier="quest.special.kill_enemy_army.0050">
+    <title>Major</title>
+    <description>Finish Kill Enemy Army quest 50 times</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestStateGreaterThanCondition"</classname>
+    		<param value="kill_enemy_army"?></value>
+    		<param value="3"?></value>
+    		<param value="49"?></value>
+    </conditions>
+  </achievement>
+
+  <achievement identifier="quest.special.kill_enemy_army.0100">
+    <title>Field Marshal</title>
+    <description>Finish Kill Enemy Army quest 100 times</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value ="QuestStateGreaterThanCondition"</classname>
+    		<param value="kill_enemy_army"?></value>
+    		<param value="3"?></value>
+    		<param value="99"?></value>
+    </conditions>
+  </achievement>
+  
+</achievements>

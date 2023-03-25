@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements>
+	<achievement identifier="xp.level.010">
+	<title>Greenhorn</title>
+	<description>Reach level 10</description>
+	<score value="1"></score>
+	<active>true</active>
+	<conditions name="levelGreaterThanCondition" param1="9">
+	<logic></logic>
+	<param value="9" type="int"?></param>
+	</conditions>
+	</achievement>
+	
+	<achievement identifier="xp.level.050">
+	<title>Novice</title>
+	<description>Reach level 50</description>
+	<score value="1"></score>
+	<active>true</active>
+	<conditions name="levelGreaterThanCondition" param1="49">
+	<logic></logic>
+	<param value="49" type="int"?></param>
+	</conditions>
+	</achievement>
+</achievements>

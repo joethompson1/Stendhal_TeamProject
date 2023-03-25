@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+
+  <achievement identifier="fight.general.rats">
+    <title>Rat Hunter</title>
+    <description>Kill 15 rats</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    		<param value="rat"?></param>
+    		<param value="15"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.general.exterminator">
+    <title>Exterminator</title>
+    <description>Kill 10 rats of each kind</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    		<param value="10"?></param>
+    		<param value="rat"?></param>
+    		<param value="caverat"?></param>
+    		<param value="razorrat"?></param>
+    		<param value="venomrat"?></param>
+    		<param value="zombie rat"?></param>
+    		<param value="giantrat"?></param>
+    		<param value="ratman"?></param>
+    		<param value="ratwoman"?></param>
+    		<param value="archrat"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.general.deer">
+    <title>Deer Hunter</title>
+    <description>Kill 25 deer</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    		<param value="deer"?></param>
+    		<param value="25"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.general.boars">
+    <title>Boar Hunter</title>
+    <description>Kill 20 boar</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    		<param value="boar"?></param>
+    		<param value="20"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.general.bears">
+    <title>Bear Hunter</title>
+    <description>Kill 10 black bears, 10 bears and 10 babybears</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    		<param value="10"?></param>
+    		<param value="bear"?></param>
+    		<param value="black bear"?></param>
+    		<param value="babybear"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.general.foxes">
+    <title>Fox Hunter</title>
+    <description>Kill 20 foxes</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    		<param value="fox"?></param>
+    		<param value="20"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.general.foxes">
+    <title>Fox Hunter</title>
+    <description>Kill 20 foxes</description>
+    <score value="1"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="AndCondition"></class>
+    		<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    			<param value="tiger"?></param>
+    			<param value="30"?></param>
+    		<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    			<param value="lion"?></param>
+    			<param value="30"?></param>
+    		<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    			<param value="elephant""?></param>
+    			<param value="50"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.general.ents">
+    <title>Wood Cutter</title>
+    <description>Kill 10 ents, 10 entwifes and 10 old ents</description>
+    <score value="2"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="PlayerHasKilledNumberOfCreaturesCondition"></class>
+    		<param value="10"?></param>
+    		<param value="ent"?></param>
+    		<param value="entwife"?></param>
+    		<param value="old ent"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.special.rare">
+    <title>Poacher</title>
+    <description>Kill any rare creature</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="KilledRareCreatureCondition"></class>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.special.all">
+    <title>Legend</title>
+    <description>Kill all creatures solo</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="KilledSoloAllCreaturesCondition"></class>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="fight.special.allshared">
+    <title>Team Player</title>
+    <description>Kill all creatures in a team</description>
+    <score value="5"></score>
+    <active value = "true" ></active>
+    <conditions>
+    	<classname value="KilledSharedAllCreaturesCondition"></class>
+    </conditions>
+  </achievement>
+  
+</achievements>

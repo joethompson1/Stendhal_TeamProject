@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements xmlns="stendhal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="stendhal ../achievements.xsd ">
+
+  <achievement identifier="item.money.100">
+    <title>First pocket money</title>
+    <description>Loot 100 money from creatures</description>
+    <score value="1"></score>
+    <active>true</active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    	<param value="100"?></param>
+    	<param value="money"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.money.1000000">
+    <title>You don't need it anymore</title>
+    <description>Loot 1000000 money from creatures</description>
+    <score value="5"></score>
+    <active>true></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    	<param value="1000000"?></param>
+    	<param value="money"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.red">
+    <title>Amazon's Menace</title>
+    <description>Loot a complete red equipment set</description>
+    <score value="2"></score>
+    <active>true></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    	<param value="1" ?></param>
+    	<param value="red armor"?></param>
+    	<param value="red helmet"?></param>
+    	<param value="red cloak"?></param>
+    	<param value="red legs""?></param>
+    	<param value="red boots"?></param>
+    	<param value="red shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.blue">
+    <title>Feeling Blue</title>
+    <description>Loot a complete blue equipment set</description>
+    <score value="2"></score>
+    <active>true></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    	<param value="1"?></param>
+    	<param value="blue armor"?></param>
+    	<param value="blue helmet"?></param>
+    	<param value="blue striped cloak"?></param>
+    	<param value="blue legs"?></param>
+    	<param value="blue boots"?></param>
+    	<param value="blue shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.elvish">
+    <title>Nalwor's Bane</title>
+    <description>Loot a complete elvish equipment set</description>
+    <score value="2"></score>
+    <active>true></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    	<param value="1"?></param>
+    	<param value="elvish armor"?></param>
+    	<param value="elvish hat"?></param>
+    	<param value="elvish cloak"?></param>
+    	<param value="elvish legs"?></param>
+    	<param value="elvish boots"?></param>
+    	<param value="elvish shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.shadow">
+    <title>Shadow Dweller</title>
+    <description>Loot a complete shadow equipment set</description>
+    <score value="2"></score>
+    <active>true></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    	<param value="1"?></param>
+    	<param value="shadow armor"?></param>
+    	<param value="shadow helmet"?></param>
+    	<param value="shadow cloak"?></param>
+    	<param value="shadow legs"?></param>
+    	<param value="shadow boots"?></param>
+    	<param value="shadow shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.chaos">
+    <title>Chaotic Looter</title>
+    <description>Loot a complete chaos equipment set</description>
+    <score value="5"></score>
+    <active>true></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    	<param value="1"?></param>
+    	<param value="chaos armor"?></param>
+    	<param value="chaos helmet"?></param>
+    	<param value="chaos cloak"?></param>
+    	<param value="chaos legs"?></param>
+    	<param value="chaos boots"?></param>
+    	<param value="chaos shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.golden">
+    <title>Golden Boy</title>
+    <description>Loot a complete golden equipment set</description>
+    <score value="2"></score>
+    <active>true></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    		<param value="1"?></param>
+    		<param value="golden armor"?></param>
+    		<param value="golden helmet"?></param>
+    		<param value="golden cloak"?></param>
+    		<param value="golden legs"?></param>
+    		<param value="golden boots"?></param>
+    		<param value="golden shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.black">
+    <title>Come to the dark side</title>
+    <description>Loot a complete black equipment set</description>
+    <score value="5"></score>
+    <active value="true"></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    		<param value="1"?></param>
+    		<param value="black armor"?></param>
+    		<param value="black helmet"?></param>
+    		<param value="black cloak"?></param>
+    		<param value="black legs"?></param>
+    		<param value="black boots"?></param>
+    		<param value="black shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.mainio">
+    <title>Excellent Stuff</title>
+    <description>Loot a complete mainio equipment set</description>
+    <score value="5"></score>
+    <active value="true"></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    		<param value="1"?></param>
+    		<param value="mainio armor"?></param>
+    		<param value="mainio helmet"?></param>
+    		<param value="mainio cloak"?></param>
+    		<param value="mainio legs"?></param>
+    		<param value="mainio boots"?></param>
+    		<param value="mainio shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.set.xeno">
+    <title>A Bit Xenophobic?</title>
+    <description>Loot a complete xeno equipment set</description>
+    <score value="5"></score>
+    <active value="true"></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    		<param value="1"?></param>
+    		<param value="xeno armor"?></param>
+    		<param value="xeno helmet"?></param>
+    		<param value="xeno cloak"?></param>
+    		<param value="xeno legs"?></param>
+    		<param value="xeno boots"?></param>
+    		<param value="xeno shield"?></param>
+    </conditions>
+  </achievement>
+  
+  <achievement identifier="item.cloak.dragon">
+    <title>Dragon Slayer</title>
+    <description>Loot all dragon cloaks</description>
+    <score value="2"></score>
+    <active value="true"></active>
+    <conditions>
+    	<classname value="PlayerLootedNumberOfItemsCondition"></class>
+    		<param value="1" ?></param>
+    		<param value="black dragon cloak"?></param>
+    		<param value="blue dragon cloak"?></param>
+    		<param value="bone dragon cloak"?></param>
+    		<param value="green dragon cloak"?></param>
+    		<param value="red dragon cloak"?></param>
+    </conditions>
+  </achievement>
+  
+</achievements>
